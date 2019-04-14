@@ -1,0 +1,124 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="14460.31" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="BYZ-38-t0r">
+    <device id="retina6_1" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="14460.20"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <scenes>
+        <!--View Controller-->
+        <scene sceneID="tne-QT-ifu">
+            <objects>
+                <viewController id="BYZ-38-t0r" customClass="ViewController" customModule="SampleAnimation" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="8bC-Xf-vdC">
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="bg_soccer_field" translatesAutoresizingMaskIntoConstraints="NO" id="eLL-FH-O8d">
+                                <rect key="frame" x="0.0" y="0.0" width="414" height="220.5"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="220.5" id="NJK-hV-kwK"/>
+                                </constraints>
+                            </imageView>
+                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="7ZN-Tx-oZv">
+                                <rect key="frame" x="0.0" y="0.0" width="414" height="220.5"/>
+                                <color key="backgroundColor" white="0.0" alpha="0.25" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                            </view>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="ic_liverpool" translatesAutoresizingMaskIntoConstraints="NO" id="9fC-yP-fOl">
+                                <rect key="frame" x="52" y="106.5" width="100" height="100"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="100" id="7ov-MZ-kTH"/>
+                                    <constraint firstAttribute="width" secondItem="9fC-yP-fOl" secondAttribute="height" multiplier="1:1" id="zjI-bj-W5S"/>
+                                </constraints>
+                            </imageView>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" verticalHuggingPriority="251" horizontalCompressionResistancePriority="749" text="Liverpool FC" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="wha-4k-eHY">
+                                <rect key="frame" x="37" y="78.5" width="130" height="20"/>
+                                <fontDescription key="fontDescription" name="HoeflerText-Black" family="Hoefler Text" pointSize="20"/>
+                                <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" verticalHuggingPriority="251" horizontalCompressionResistancePriority="749" text="Chelsea" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="SOW-fO-yJZ">
+                                <rect key="frame" x="274" y="78.5" width="76.5" height="20"/>
+                                <fontDescription key="fontDescription" name="HoeflerText-Black" family="Hoefler Text" pointSize="20"/>
+                                <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" verticalHuggingPriority="251" horizontalCompressionResistancePriority="749" text="vs" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="4yc-ps-Oju">
+                                <rect key="frame" x="182" y="144" width="50" height="25"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="50" id="atu-l5-DKy"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" name="HoeflerText-Black" family="Hoefler Text" pointSize="25"/>
+                                <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="ic_chelsea" translatesAutoresizingMaskIntoConstraints="NO" id="cHI-Ob-Flp">
+                                <rect key="frame" x="262" y="106.5" width="100" height="100"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="100" id="f0y-XO-ug5"/>
+                                </constraints>
+                            </imageView>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" verticalHuggingPriority="251" horizontalCompressionResistancePriority="749" text="Line Up" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="2ln-Sa-2GT">
+                                <rect key="frame" x="13" y="235.5" width="77" height="20"/>
+                                <fontDescription key="fontDescription" name="HoeflerText-Black" family="Hoefler Text" pointSize="20"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="uLn-Uw-qil">
+                                <rect key="frame" x="50" y="305.5" width="9.5" height="5"/>
+                                <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" secondItem="uLn-Uw-qil" secondAttribute="height" multiplier="15:8" id="47R-Gh-nMa"/>
+                                    <constraint firstAttribute="height" constant="5" id="5g6-JD-BKc"/>
+                                </constraints>
+                            </view>
+                        </subviews>
+                        <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        <constraints>
+                            <constraint firstItem="7ZN-Tx-oZv" firstAttribute="trailing" secondItem="eLL-FH-O8d" secondAttribute="trailing" id="2WY-3w-HpR"/>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="eLL-FH-O8d" secondAttribute="trailing" id="815-tp-nv2"/>
+                            <constraint firstItem="cHI-Ob-Flp" firstAttribute="top" secondItem="SOW-fO-yJZ" secondAttribute="bottom" constant="8" id="C87-fA-DXl"/>
+                            <constraint firstItem="cHI-Ob-Flp" firstAttribute="width" secondItem="cHI-Ob-Flp" secondAttribute="height" multiplier="1:1" id="DKC-2k-MQF"/>
+                            <constraint firstItem="uLn-Uw-qil" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="50" id="DsV-Xk-9tj"/>
+                            <constraint firstItem="9fC-yP-fOl" firstAttribute="top" secondItem="wha-4k-eHY" secondAttribute="bottom" constant="8" id="EGa-MM-2RP"/>
+                            <constraint firstItem="4yc-ps-Oju" firstAttribute="centerX" secondItem="6Tk-OE-BBY" secondAttribute="centerX" id="KmA-wH-gcN"/>
+                            <constraint firstItem="uLn-Uw-qil" firstAttribute="top" secondItem="2ln-Sa-2GT" secondAttribute="bottom" constant="50" id="MEz-CI-YQM"/>
+                            <constraint firstAttribute="top" secondItem="eLL-FH-O8d" secondAttribute="top" id="OEp-lH-z8V"/>
+                            <constraint firstItem="eLL-FH-O8d" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" id="SAb-33-u3P"/>
+                            <constraint firstItem="7ZN-Tx-oZv" firstAttribute="leading" secondItem="eLL-FH-O8d" secondAttribute="leading" id="VJO-su-d1z"/>
+                            <constraint firstItem="2ln-Sa-2GT" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="13" id="bLX-g3-kHC"/>
+                            <constraint firstItem="wha-4k-eHY" firstAttribute="centerX" secondItem="9fC-yP-fOl" secondAttribute="centerX" id="cP8-uT-DPh"/>
+                            <constraint firstItem="2ln-Sa-2GT" firstAttribute="top" secondItem="eLL-FH-O8d" secondAttribute="bottom" constant="15" id="fjn-H7-eSX"/>
+                            <constraint firstItem="4yc-ps-Oju" firstAttribute="leading" secondItem="9fC-yP-fOl" secondAttribute="trailing" constant="30" id="gMb-TA-nRI"/>
+                            <constraint firstItem="cHI-Ob-Flp" firstAttribute="centerY" secondItem="4yc-ps-Oju" secondAttribute="centerY" id="jDR-3W-T0O"/>
+                            <constraint firstItem="7ZN-Tx-oZv" firstAttribute="bottom" secondItem="eLL-FH-O8d" secondAttribute="bottom" id="khX-aM-SwS"/>
+                            <constraint firstItem="4yc-ps-Oju" firstAttribute="top" secondItem="6Tk-OE-BBY" secondAttribute="top" constant="100" id="nZG-Ov-iB3"/>
+                            <constraint firstItem="7ZN-Tx-oZv" firstAttribute="top" secondItem="eLL-FH-O8d" secondAttribute="top" id="sQt-Tc-3DX"/>
+                            <constraint firstItem="cHI-Ob-Flp" firstAttribute="leading" secondItem="4yc-ps-Oju" secondAttribute="trailing" constant="30" id="sUc-pb-N2K"/>
+                            <constraint firstItem="SOW-fO-yJZ" firstAttribute="centerX" secondItem="cHI-Ob-Flp" secondAttribute="centerX" id="tcr-d1-tLM"/>
+                            <constraint firstItem="9fC-yP-fOl" firstAttribute="centerY" secondItem="4yc-ps-Oju" secondAttribute="centerY" id="xeg-j0-Rko"/>
+                        </constraints>
+                        <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
+                    </view>
+                    <connections>
+                        <outlet property="centerLabel" destination="4yc-ps-Oju" id="ezk-Jf-EP1"/>
+                        <outlet property="chelseaImgView" destination="cHI-Ob-Flp" id="IZd-Cl-sJf"/>
+                        <outlet property="chelseaLabel" destination="SOW-fO-yJZ" id="yCG-BH-iVc"/>
+                        <outlet property="liverpoolImgView" destination="9fC-yP-fOl" id="5iu-2L-mmd"/>
+                        <outlet property="liverpoolLabel" destination="wha-4k-eHY" id="8s1-qD-hxD"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="52.173913043478265" y="26.116071428571427"/>
+        </scene>
+    </scenes>
+    <resources>
+        <image name="bg_soccer_field" width="610" height="400"/>
+        <image name="ic_chelsea" width="400" height="400"/>
+        <image name="ic_liverpool" width="296" height="400"/>
+    </resources>
+</document>
